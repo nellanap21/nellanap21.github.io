@@ -110,6 +110,15 @@ ul {
     overflow: visible;
 }
 
+.navigation_logo-link {
+    padding-left: 0;
+    transform: translateY(.3rem);
+}
+
+.navigation_logo {
+    overflow: visible;
+}
+
 .navigation_menu-left {
     display: flex;
 }
