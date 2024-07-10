@@ -1235,3 +1235,76 @@ th.table_header {
     color: #544761;
     line-height: 140%;
 }
+
+.section_product-talk-to-sales {
+    position: relative;
+}
+
+.form_css {
+    display: none;
+}
+
+.home_hs-form {
+    width: 100%;
+    height: 100%;
+}
+
+.product-cta_component {
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.product-cta_left {
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 5rem;
+    padding-right: 3.62rem;
+    display: flex;
+}
+
+.product-cta_content {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.talk-to-sales_text {
+    max-width: 33rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-cta_right {
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 3.62rem;
+    display: flex;
+}
+
+.home-cta_background {
+    z-index: -1;
+    position: absolute; 
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.home-cta_background-image {
+    background-color: #fbe7e1;
+    width: 100%;
+    height: 100%;
+}
+.home-cta_bakground-image.product-page {
+    object-fit: cover;
+}
+
+.background-color-peach {
+    color: white;
+    background-color: #fbe7e1;
+}
